@@ -1,6 +1,6 @@
 body{
-
     width: auto;
+
 }
 
 #purplebackground{
@@ -8,6 +8,7 @@ body{
     width: auto;
     background-image: url('assets/gradientviolet.jpg');
     background-repeat: no-repeat;
+
 }
 
 #navbar{
@@ -26,6 +27,12 @@ body{
     text-align: center;
     font-weight: bold;
     font-family: arial;
+}
+
+a:link, a:visited{
+    text-decoration: none; 
+    font-size: 32px; 
+    color: white;
 }
 
 #navbar img{
@@ -367,7 +374,8 @@ body{
 
 #footer{
     background-color: rgb(51, 161, 161);
-    height: 700px;
+    height: 800px;
+    width: 2900px;
     color: white;
     text-align: center;
     font-family: Roboto;
